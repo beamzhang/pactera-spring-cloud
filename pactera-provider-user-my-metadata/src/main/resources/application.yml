@@ -24,5 +24,6 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
     metadata-map:
       my-metadata: 我自定义的元数据       # 自定义的元数据，key/value都可以随便写。

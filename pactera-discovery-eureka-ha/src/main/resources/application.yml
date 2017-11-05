@@ -9,6 +9,8 @@ server:
 eureka:
   instance:
     hostname: peer1                               # 指定当profile=peer1时，主机名是peer1
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
   client:
     serviceUrl:
       defaultZone: http://peer2:8762/eureka/      # 将自己注册到peer2这个Eureka上面去
@@ -21,6 +23,8 @@ server:
 eureka:
   instance:
     hostname: peer2
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
   client:
     serviceUrl:
       defaultZone: http://peer1:8761/eureka/

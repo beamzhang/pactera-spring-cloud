@@ -3,6 +3,6 @@ server:
 spring:
   application:
     name: pactera-consumer-account
-microservice-provider-user:
+pactera-provider-user:
   ribbon:
     listOfServers: localhost:7000,localhost:7001
