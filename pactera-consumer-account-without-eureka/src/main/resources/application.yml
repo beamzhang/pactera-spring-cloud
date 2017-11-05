@@ -1,0 +1,8 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: pactera-consumer-account
+microservice-provider-user:
+  ribbon:
+    listOfServers: localhost:7000,localhost:7001

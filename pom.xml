@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.pactera.cloud</groupId>
+  <artifactId>pactera-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+
+  <modules>
+    <module>pactera-provider-user</module>
+	<module>pactera-consumer-account</module>
+	<module>pactera-discovery-eureka</module>
+	<module>pactera-consumer-account-ribbon</module>
+	<module>pactera-consumer-account-ribbon-customizing</module>
+	<module>pactera-consumer-account-ribbon-customizing-properties</module>
+	<module>pactera-consumer-account-without-eureka</module>
+	<module>pactera-discovery-eureka-authenticating</module>
+	<module>pactera-discovery-eureka-ha</module>
+	<module>pactera-provider-user-ip</module>
+	<module>pactera-provider-user-multiple-params</module>
+	<module>pactera-provider-user-my-metadata</module>
+	<module>pactera-provider-user-with-auth</module>
+    <module>pactera-simple-consumer-account</module>
+    <module>pactera-simple-provider-user</module>
+  </modules>
+</project>
