@@ -23,5 +23,6 @@
 		<module>pactera-provider-user-with-auth</module>
 		<module>pactera-simple-consumer-account</module>
 		<module>pactera-simple-provider-user</module>
+		<module>pactera-consumer-account-feign</module>
 	</modules>
 </project>
