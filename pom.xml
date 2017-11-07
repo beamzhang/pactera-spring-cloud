@@ -25,5 +25,6 @@
 		<module>pactera-simple-provider-user</module>
 		<module>pactera-consumer-account-feign</module>
 		<module>pactera-consumer-account-feign-customizing</module>
+		<module>pactera-consumer-account-feign-manual</module>
 	</modules>
 </project>
