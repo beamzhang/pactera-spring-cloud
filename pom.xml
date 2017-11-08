@@ -29,5 +29,6 @@
 		<module>pactera-consumer-account-feign-logging</module>
 		<module>pactera-consumer-account-feign-multiple-params</module>
 		<module>pactera-consumer-account-ribbon-hystrix</module>
+		<module>pactera-consumer-account-feign-hystrix-fallback</module>
 	</modules>
 </project>
