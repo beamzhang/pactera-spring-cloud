@@ -27,5 +27,6 @@
 		<module>pactera-consumer-account-feign-customizing</module>
 		<module>pactera-consumer-account-feign-manual</module>
 		<module>pactera-consumer-account-feign-logging</module>
+		<module>pactera-consumer-account-feign-multiple-params</module>
 	</modules>
 </project>
