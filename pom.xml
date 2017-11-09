@@ -31,5 +31,6 @@
 		<module>pactera-consumer-account-ribbon-hystrix</module>
 		<module>pactera-consumer-account-feign-hystrix-fallback</module>
 		<module>pactera-consumer-account-feign-hystrix-fallback-factory</module>
+		<module>pactera-consumer-account-feign-hystrix-fallback-factory-stream</module>
 	</modules>
 </project>
