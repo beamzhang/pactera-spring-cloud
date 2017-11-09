@@ -8,29 +8,57 @@
 	<packaging>pom</packaging>
 
 	<modules>
+		<!-- 用户微服务（提供方） -->
 		<module>pactera-provider-user</module>
+		<!-- 账户微服务（消费方） -->
 		<module>pactera-consumer-account</module>
+		<!-- 微服务注册中心 eureka -->
 		<module>pactera-discovery-eureka</module>
+		<!-- 账户微服务 ribbin -->
 		<module>pactera-consumer-account-ribbon</module>
+		<!-- 账户微服务自定义 ribbon -->
 		<module>pactera-consumer-account-ribbon-customizing</module>
+		<!-- 账户微服务自定义ribbon 配置文件 -->
 		<module>pactera-consumer-account-ribbon-customizing-properties</module>
+		<!-- 账户微服务脱离eureka -->
 		<module>pactera-consumer-account-without-eureka</module>
+		<!-- 微服务注册中心认证 -->
 		<module>pactera-discovery-eureka-authenticating</module>
+		<!-- 注册中心高可用 -->
 		<module>pactera-discovery-eureka-ha</module>
+		<!-- 用户微服务ip -->
 		<module>pactera-provider-user-ip</module>
+		<!-- 用户微服务多参数配置 -->
 		<module>pactera-provider-user-multiple-params</module>
+		<!-- 用户微服务自定义元数据 -->
 		<module>pactera-provider-user-my-metadata</module>
+		<!-- 用户微服务注册eureka的认证配置 -->
 		<module>pactera-provider-user-with-auth</module>
+		<!-- 传统服务服务消费方 使用RestTemplate调用-->
 		<module>pactera-simple-consumer-account</module>
+		<!-- 传统服务服务提供方 -->
 		<module>pactera-simple-provider-user</module>
+		<!-- 微服务客户端feign -->
 		<module>pactera-consumer-account-feign</module>
+		<!-- 自定义feign -->
 		<module>pactera-consumer-account-feign-customizing</module>
+		<!-- 手动创建feign的多用户认证 -->
 		<module>pactera-consumer-account-feign-manual</module>
+		<!-- 客户端feign日志 -->
 		<module>pactera-consumer-account-feign-logging</module>
+		<!-- 使用feign构造多参数的请求 -->
 		<module>pactera-consumer-account-feign-multiple-params</module>
+		<!-- 客户端负责均衡整合hystrix -->
 		<module>pactera-consumer-account-ribbon-hystrix</module>
+		<!-- 客户端feign添加回退 -->
 		<module>pactera-consumer-account-feign-hystrix-fallback</module>
+		<!-- 通过Fallback Factory查看回退原因 -->
 		<module>pactera-consumer-account-feign-hystrix-fallback-factory</module>
+		<!-- feign的监控 -->
 		<module>pactera-consumer-account-feign-hystrix-fallback-factory-stream</module>
+		<!-- 使用hystrix Dashboard可视化监控数据 -->
+		<module>pactera-hystrix-dashboard</module>
+		<!-- 添加turbine -->
+		<module>pactera-hystrix-turbine</module>
 	</modules>
 </project>
