@@ -1,0 +1,15 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: pactera-hystrix-turbine
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+turbine:
+  appConfig: pactera-consumer-account,pactera-consumer-account-feign-hystrix-fallback-factory-stream
+  clusterNameExpression: "'default'"
