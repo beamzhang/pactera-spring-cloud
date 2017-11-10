@@ -1,0 +1,2 @@
+server:
+  port: 9000 ##dashboard 端口  访问路径：http://localhost:9000/hystrix/
