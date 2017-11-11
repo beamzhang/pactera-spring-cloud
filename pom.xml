@@ -42,6 +42,8 @@
 		<module>pactera-consumer-account-feign</module>
 		<!-- 自定义feign -->
 		<module>pactera-consumer-account-feign-customizing</module>
+		<!-- 自定义feign禁用hystrix -->
+		<module>pactera-consumer-account-feign-customizing-without-hystrix</module>
 		<!-- 手动创建feign的多用户认证 -->
 		<module>pactera-consumer-account-feign-manual</module>
 		<!-- 客户端feign日志 -->
