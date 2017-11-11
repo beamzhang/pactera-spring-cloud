@@ -50,6 +50,8 @@
 		<module>pactera-consumer-account-feign-multiple-params</module>
 		<!-- 客户端负责均衡整合hystrix -->
 		<module>pactera-consumer-account-ribbon-hystrix</module>
+		<!-- hystrix隔离 -->
+		<module>pactera-consumer-account-ribbon-with-hystrix-propagation</module>
 		<!-- 客户端feign添加回退 -->
 		<module>pactera-consumer-account-feign-hystrix-fallback</module>
 		<!-- 通过Fallback Factory查看回退原因 -->
