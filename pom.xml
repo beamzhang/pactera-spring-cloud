@@ -70,5 +70,7 @@
 		<module>pactera-hystrix-turbine-mq</module>
 		<!-- 简单微服务网关 -->
 		<module>pactera-gateway-zuul</module>
+		<!-- 文件上传-->
+		<module>pactera-file-upload</module>
 	</modules>
 </project>
