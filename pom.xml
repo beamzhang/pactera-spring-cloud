@@ -68,5 +68,7 @@
 		<module>pactera-consumer-account-ribbon-hystrix-turbine-mq</module>
 		<!-- hystrix关联mq-->
 		<module>pactera-hystrix-turbine-mq</module>
+		<!-- 简单微服务网关 -->
+		<module>pactera-gateway-zuul</module>
 	</modules>
 </project>
