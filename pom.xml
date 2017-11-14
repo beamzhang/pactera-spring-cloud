@@ -72,5 +72,7 @@
 		<module>pactera-gateway-zuul</module>
 		<!-- 文件上传-->
 		<module>pactera-file-upload</module>
+		<!-- 简单的zuul过滤器 -->
+		<module>pactera-gateway-zuul-filter</module>
 	</modules>
 </project>
